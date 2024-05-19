@@ -1,0 +1,6 @@
+@TinyUrl_HostAddress = https://localhost:5022
+
+GET {{TinyUrl_HostAddress}}/url/
+Accept: application/json
+
+###
