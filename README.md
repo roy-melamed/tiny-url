@@ -1,9 +1,6 @@
 # tiny-url
 TinyUrl implemented in ASP.NET with MongoDB and LRUCache
 
-
-**PART 2 EXPLANATION:**
-
 Why I Chose This Approach:
 I decided to go with an LRU (Least Recently Used) cache because it's simple and effective for managing the cache size. 
 With this approach, I can ensure that the cache doesn't grow too large and cause memory overflow issues.
